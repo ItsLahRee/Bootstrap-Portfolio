@@ -3,7 +3,8 @@ The portfolio is created using HTML5, CSS3, and Bootstrap.
 
 # Instillation
 
-This code is available for you to view and to see what I've been up to.Enjoy!
+Deployed on GitHub Pages: https://itslahree.github.io/Bootstrap-Portfolio/
+
 
 ## Usage
 
@@ -54,21 +55,21 @@ To receive a passing grade on this assignment, you should meet all of the conten
 
 Your updated site should have the following content:
 
-* Your name
+* Your name √
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number √
 
-* A link to a PDF of your resume
+* A link to a PDF of your resume (?)
 
 * List of projects. For each project make sure you have the following:
 
-  * Project title
+  * Project title √
 
-  * Link to the deployed version
+  * Link to the deployed version √
 
-  * Link to the code on GitHub
+  * Link to the code on GitHub √
 
-#### Design
+#### Design (toDo)
 
 The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet:
 
