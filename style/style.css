@@ -1,0 +1,43 @@
+.img-fluid {
+  
+    border-radius: 15px 50px 30px 50px;
+    padding: 10px; 
+    width: 200px;
+    height: 150px; 
+ 
+}
+
+p {
+  text-align: left;
+}
+
+.row {
+  background-color: lightblue;
+  float: left;
+  overflow: auto;
+  margin-bottom: 40px;
+  position: relative;
+
+}
+
+body {
+  background-color: blanchedalmond;
+  clear: both;
+  width: 100%;
+  overflow: scroll;
+}
+
+.card {
+  background-color: aqua;
+  float: right;
+}
+
+#nav {
+  background-color: darkolivegreen;
+  clear: both;
+}
+
+#photo {
+  border-radius: 15px, 30px, 15px, 30px;
+}
+
