@@ -12,7 +12,7 @@ p {
 }
 
 .row {
-  background-color: lightblue;
+  background-color: yellow;
   float: left;
   overflow: auto;
   margin-bottom: 40px;
@@ -21,7 +21,7 @@ p {
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: black;
   clear: both;
   width: 100%;
   overflow: scroll;
