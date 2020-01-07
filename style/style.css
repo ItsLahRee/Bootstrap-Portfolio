@@ -1,3 +1,11 @@
+/*CSS Reset*/
+
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+
 /*Basic Styles*/
 
 body {
@@ -37,6 +45,7 @@ a {
 .container {
   width: 1024px;
   margin: 0 auto;
+  display: block;
 }
 
 #main-bio,
