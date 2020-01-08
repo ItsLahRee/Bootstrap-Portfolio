@@ -5,12 +5,11 @@
    padding: 0;
  }
 
-
 /*Basic Styles*/
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
@@ -42,6 +41,8 @@ a {
   text-decoration: none;
 }
 
+
+/*
 .container {
   width: 1024px;
   margin: 0 auto;
@@ -72,26 +73,26 @@ a {
   /*Media Query*/
   
   /*1200 Breakpoint, 1200 / 16px = 75em */ 
-  @media (max-width: 75em) {
+  /*@media (max-width: 75em) {
     html {
        font-size: 60%;
       }
    }
  
  /* 980 Breakpoint, 980 / 16px = 61.25em */ 
- @media (max-width: 61.25em) {
+ /*@media (max-width: 61.25em) {
    html {
        font-size: 58%;
       }
    }
  /*460 Breakpoint, 460 / 16px = 30em */ 
- @media (max-width: 30em) {
+ /*@media (max-width: 30em) {
       html {
          font-size: 55%;
            }
    }
  
-
+  
 
 
 
