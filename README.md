@@ -1,10 +1,10 @@
 # Portfolio Project
 
-The Goal of this project is to create a portfolio webpage to showcase my knowledge of responsive web design and to showcase future projects.
+The Goal of this project is to create a portfolio webpage with responsive web design and links to other work.
 
 ## Getting Started
 
-The instructions below will help you get a copy of the source code for my portfolio project. It will also help you with any configurations you might need to run this code on your machine.
+\
 
 ### Prerequisites
 
@@ -59,20 +59,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* (Bootstrap, React.js) - The web framework used
+* (Bootstrap, React.js) 
 
-
-## Contributing
-
-Show people how to contribute 
-
-## Versioning
-
-Used GitHub for versioning. 
-
-## Authors
-
-See also the list of CONTRUBUTORS who participated in this project.
 
 ## License
 
