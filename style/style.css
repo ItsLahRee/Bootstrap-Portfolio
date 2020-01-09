@@ -1,6 +1,6 @@
 
 /*Basic Styles*/
-
+/*
 body {
   padding: 0;
   margin: 0 auto;
@@ -11,17 +11,40 @@ body {
   background: #efeee7;
 }
 
-header {
-  background: #d21034;
+nav {
+  background-color: #333;
+  color: #eee;
+
+  
+}
+
+ul {
+  list-style: none;
+
+
+}
+
+li a {
+  text-decoration: none;
+  color: #eee;
+
+  
+}
+
+li :hover {
+
+  color: darkgray;
+
+}
+
+button {
+
+
 }
 
 h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
   font-size: 28px;
   color: #eee;
-  text-align: center;
   background: #333;
 }
 
@@ -29,64 +52,14 @@ h2 {
   font-size: 24px;
 }
 
-a {
-  color: #d21034;
-  display: block;
+/*Class
+
+.navbar-brand {
+  color: #eee;
+  font-weight: 200;
   text-decoration: none;
-}
 
 
-/*
-.container {
-  width: 1024px;
-  margin: 0 auto;
-  display: block;
-}
 
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-}
-
-
-  /*Media Query*/
-  
-  /*1200 Breakpoint, 1200 / 16px = 75em */ 
-  /*@media (max-width: 75em) {
-    html {
-       font-size: 60%;
-      }
-   }
- 
- /* 980 Breakpoint, 980 / 16px = 61.25em */ 
- /*@media (max-width: 61.25em) {
-   html {
-       font-size: 58%;
-      }
-   }
- /*460 Breakpoint, 460 / 16px = 30em */ 
- /*@media (max-width: 30em) {
-      html {
-         font-size: 55%;
-           }
-   }
- 
-  
-
-
+}*/
 
