@@ -4,7 +4,6 @@ The Goal of this project is to create a portfolio webpage with responsive web de
 
 ## Getting Started
 
-\
 
 ### Prerequisites
 
