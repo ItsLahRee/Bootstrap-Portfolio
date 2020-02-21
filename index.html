@@ -4,162 +4,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<!--External Style Sheets-->
-    <link rel="stylesheet" type="text/css" href="style/normalize.css">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/grid.css">
-    <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
-   
-
-<!--Bootstrap CDN/ Font Awesome-->    
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"/>
-      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Laurie Strecker</title>
   </head>
 
-<!-- Body -->
-  <body>
+<body>
 
-    <header>
-      <nav>
-        <div class="row">
-          <img src="images/Strecker-logo-white.png" alt="Laurie's logo" class="logo">
-          <ul>
-            <li></li>
-
-          </ul>
+  <!--Header-->
+      <div class="hero-image">
+          <div class="hero-text-box">
+              <h1>Hello, I'm Laurie.<br>A Full Stack Web Developer.</h1>
+            <a class="btn btn-full" href="#">About me.</a>
+          <a class="btn btn-ghost" href="#">Learn more.</a>
         </div>
-      </nav>
-    <div class="hero-text-box">
-      <h1>Hello, I'm Laurie.<br>A Full Stack Web Developer.</h1>
-      <a class="btn btn-full" href="#">About me.</a>
-      <a class="btn btn-ghost" href="#">Learn more.</a>
-      </div>
-
-  </header> 
-
-
-
-
-
-
-
-
-
-<!--NavBar
-    <header id="masthead" class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-      <div class="container">
-        <a href="index.html" id="logo" class="navbar-brand">Laurie Strecker</a>
-        <nav class="flex-container">
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-
- <div class="row">
-  <div class="container-fluid">
-    <div class="jumbotron m-0 jumbotron-fluid text-center" style="background-image: linear-gradient(to bottom, #2F86CE 0%, #622FC5 100%)";>
-      <h1 style="font-size: 6em; color: #eee">Hello.</h1>
-    </div>
-  </div>
-</div>-->
-
-  <!--About Section 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <img class="img img-thumbnail" src="Bio_Image.jpg">
-      </div>
-      <div class="col-lg-9">
-        <h2>I'm Laurie...</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
-      </div>
-    </div>
-  </div>
-
-
-
-<div id="main-container" class="container" style="background-color: beige;">
-  <section class="main-section">
-    <h1>Portfolio</h1>
-
-      <div class="work">
-        <a href="default.asp">
-          <img src="https://via.placeholder.com/150" alt="Trivia Game Image">
-        </a>
-
-        <h3>Word Guess</h3>
     </div>
 
-    <div class="work">
-      <a href="default.asp">
-        <img src="https://via.placeholder.com/150" alt="RPG Game Image">
-      </a>
-
-      <h3>RPG Game</h3>
-    </div>
-
-    <div class="work">
-      <a href="default.asp">
-        <img src="https://via.placeholder.com/150" alt="Trivia Game Image">
-      </a>
-
-      <h3>Trivia Game</h3>
-    </div>
-
-    
-   
-    <div class="work">
-      <a href="default.asp">
-        <img src="https://via.placeholder.com/150" alt="Info Widget Image">
-      </a>
-
-      <h3>Info Widget</h3>
-    </div>
- 
-    <div class="work">
-      <a href="default.asp">
-        <img src="https://via.placeholder.com/150" alt="RPS Game Image">
-      </a>
-
-      <h3>RPS</h3>
-    </div>
-
-  </section>
-</div>-->
-  
-    <!--Contact Form Section-->
-    <div class="conainter py-4">
-      <div id="contact-title" style="text-align: center;">
+<!--Contact-->
       <h1>Contact Me.</h1>
-      </div>
-    <div class="container position-relative py-4 style="max-width="100px">
       <form class="form-horizontal">
         <div class="form-group">
             <div class="row">
               <div class="col">
-                <label class="control-label col-sm-2">First</label>
+                <label class="control-label">First</label>
                 <input type="text" class="form-control" placeholder="First name">
               </div>
         <div class="col">
-          <label class="control-label col-sm-2">Last</label>
+          <label class="control-label">Last</label>
           <input type="text" class="form-control" placeholder="Last name">
         </div>
       </div>
     </div>
       <div class="form-group">
-        <label class="control-label col-sm-2">Email</label>
+        <label class="control-label">Email</label>
         <input type="email" class="form-control" placeholder="name@example.com">
       </div>
       <div class="form-group">
-        <label class="control-label col-sm-2">Comments</label>
+        <label class="control-label">Comments</label>
         <textarea class="form-control" rows="5"></textarea>
       </div>
       <button class="btn btn-primary" type="submit">Submit</button>
@@ -168,13 +49,9 @@
 </div>
 
     <!--Footer Container-->
-    <footer>
-      <div class="container">
-        All Rights Reserved &copy; LaurieStrecker | 2020
-      </div>
-    </footer>
-
-
+  <div id="footer">
+  <p>All Rights Reserved &copy; LaurieStrecker | 2020</p>
+  </div>
     <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -184,4 +61,6 @@
 
 </body>
 </html>
+
+
 
