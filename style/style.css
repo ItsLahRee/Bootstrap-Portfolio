@@ -9,19 +9,19 @@
 }
 
 html {
-	background-color: #fff;
-  color: #555;
   font-family: 'lato' , 'Arial' , 'sans-serif';
   font-size: 20px;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 /*-----------------------------------*/
 /*HEADINGS*/
 /*-----------------------------------*/
 
-h1 {
+h1,
+h2 {
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-size: 200%;
@@ -48,12 +48,27 @@ h1 {
 /*HEADER*/
 /*-----------------------------------*/
 
+.hero-image {
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		background-color: #363639;
+		color: #BFBFB4;
+}
 
 /*-----------------------------------*/
 /*CONTAINERS*/
 /*-----------------------------------*/
 
+.wrapper {
+	background-size: cover;
+	height: 100vh;
+}
 
+#work {
+	background-color: #363639;
+	color: #BFBFB4;
+}
 
 /*-----------------------------------*/
 /*CONTACT FORM*/
@@ -61,8 +76,15 @@ h1 {
 
 
 
+/*-----------------------------------*/
+/*FOOTER*/
+/*-----------------------------------*/
 
-
+.footer {
+	height: 25vh;
+	background-color: #363639;
+	color: #BFBFB4;
+}
 
 
 
