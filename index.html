@@ -7,47 +7,104 @@
     <link rel="stylesheet" type="text/css" href="style/style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Laurie Strecker</title>
+    <script src="https://kit.fontawesome.com/3d1040de40.js" crossorigin="anonymous"></script>
   </head>
 
 <body>
-
-  <!--Header-->
-  <header>
-      <div class="hero-image">
-          <div class="hero-text-box">
-              <h1>Laurie Strecker<br>Full Stack Web Developer.</h1>
-            <a class="btn" href="#">Learn More</a>
-        </div>
-    </div>
-  </header>
-
-<!--About-->
-<div id="about" class="wrapper">
-  <div class="title"><h2>About Me.</h2></div>
-</div>
-<!--Work-->
-
-<div id="work" class="wrapper">
-  <h2>My Projects.</h2>
-  <div class="box box1">Box 1</div>
-  <div class="box box2">Box 2</div>
-  <div class="box box3">Box 3</div>
-  <div class="box box4">Box 4</div>
-</div>
-<!--Contact-->
 <div class="wrapper">
-      <div class="title"><h2>Contact Me.</h2></div>
-</div>
-    <!--Footer Container-->
-    <div class="footer">
+
+<!--Navigation-->
+  <nav class="main-nav">
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Projects</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+<!--Header-->
+<header class="header-container">
+  <h1>Laurie Strecker<br>Full Stack Web Developer.</h1>
+  <a class="btn" href="#">Learn More</a>
+</header>
+        
+<!--About-->
+<section id="about" class="about-container">
+  <div class="about-content">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Optio omnis dicta eos nobis dolor dolorem aperiam, 
+      dignissimos debitis vitae tempora nam quibusdam nostrum unde eligendi 
+      tempore cum quia iste necessitatibus.
+    </p>
+  </div>
+</section>
+
+<!--Work-->
+<section id="work" class="work-container boxes">
+    <h2>Projects</h2>
+    <div class="box box1">
+      <h3>Box 1</h3>
+      <a href="#" class="btn">Source Code</a>
+      <a href="#" class="btn">Website</a>
+    </div>
+
+    <div class="box box2">
+      <h3>Box 2</h3>
+      <a href="#" class="btn">Source Code</a>
+      <a href="#" class="btn">Website</a>
+    </div>
+
+    <div class="box box3">
+      <h3>Box 3</h3>
+      <a href="#" class="btn">Source Code</a>
+      <a href="#" class="btn">Website</a>
+    </div>
+
+    <div class="box box4">
+      <h3>Box 4</h3>
+      <a href="#" class="btn">Source Code</a>
+      <a href="#" class="btn">Website</a>
+    </div>
+</section> 
+
+<!--Contact-->
+<section id="contact" class="contact-container">
+    <h2>Contact Me.</h2>
+    <form id="contact-form">
+
+      <label for="name">Full Name:
+      </label><br>
+      <input id="name" type="text"><br>
+
+      <label for="email">Email Address:
+      </label><br>
+      <input id="email" type="text"><br>
+
+      <input id="submit-btn" type="submit">
+
+    </form>
+</section>
+
+<!--Footer Container-->
   <footer>  
   <p>&copy; LaurieStrecker | 2020</p>
   </footer>
-</div>
-    <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
+
+</div><!--End of Wrapper-->
+ 
+<!--Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
