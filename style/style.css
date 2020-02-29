@@ -8,16 +8,57 @@
   padding: 0;
 }
 
+/*-----------------------------------*/
+/*VARIABLES*/
+/*-----------------------------------*/
+:root {
+	--primary: #ddd;
+	--dark: #333;
+	--light: #fff;
+	--shadow: 0 1px 5px rgba(104 104 104 0.8);
+}
+
+/*-----------------------------------*/
+/*MAIN STYLES*/
+/*-----------------------------------*/
+
 html {
-  font-family: 'lato' , 'Arial' , 'sans-serif';
+	font-family: 'lato' , 'Arial' , 'sans-serif';
+	color: var(dark);
   font-size: 20px;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 }
 
+body {
+	background: #ccc;
+	margin: 30px 50px;
+	line-height: 1.4;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+}
+
 /*-----------------------------------*/
-/*HEADINGS*/
+/*NAVIGATION*/
+/*-----------------------------------*/
+
+/*-----------------------------------*/
+/*HEADER*/
+/*-----------------------------------*/
+
+.hero-image {
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-color: #363639;
+	color: #BFBFB4;
+}
+/*-----------------------------------*/
+/*HEADING*/
 /*-----------------------------------*/
 
 h1,
@@ -37,38 +78,24 @@ h2 {
 /*-----------------------------------*/
 
 .btn {
-	display: inline-block;
-	padding: 10px 30px;
-	font-weight: 300;
+	background: var(--dark);
+	color: var(--light);
+	padding: 0.6rem 1.3rem;
 	text-decoration: none;
-}
-
-
-/*-----------------------------------*/
-/*HEADER*/
-/*-----------------------------------*/
-
-.hero-image {
-		background-size: cover;
-		background-position: center;
-		height: 100vh;
-		background-color: #363639;
-		color: #BFBFB4;
+	border: 0;
 }
 
 /*-----------------------------------*/
-/*CONTAINERS*/
+/*IMAGES*/
 /*-----------------------------------*/
 
-.wrapper {
-	background-size: cover;
-	height: 100vh;
+.img {
+	max-width: 100%;
 }
 
-#work {
-	background-color: #363639;
-	color: #BFBFB4;
-}
+/*-----------------------------------*/
+/*SECTIONS*/
+/*-----------------------------------*/
 
 /*-----------------------------------*/
 /*CONTACT FORM*/
