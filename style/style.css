@@ -48,11 +48,13 @@ ul {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+
 }
 
 .main-nav {
 	width: 100%;
 	display: flex;
+	justify-content: space-evenly;
 	list-style: none;
 	padding: 0;
 	margin-top: 0;
@@ -74,18 +76,14 @@ ul {
 /*-----------------------------------*/
 /*HEADER*/
 /*-----------------------------------*/
-.header-container {
-	display: grid;
-	display: flex;
-	flex-direction: column; 
-	align-items: start;
-	justify-content: center;
-	box-shadow: var(--shadow);
-}
 
 .showcase {
 	text-align: justify;
-	margin-left: 5em;
+	padding: 16em 7em 10em 8em;
+}
+
+.header-container {
+	min-height: 100vh;
 }
 
 /*-----------------------------------*/
@@ -96,6 +94,9 @@ ul {
 	grid-gap: 10px;
 	border: 1px solid lightslategray;
 	text-align: center;
+	padding: 0px 40px 20px 40px;
+	min-height: 50vh;
+	
 }
 
 .info-boxes {
@@ -105,6 +106,41 @@ ul {
 	padding: 10px;
 	align-content: center;
 	text-align: center;
+}
+
+/*-----------------------------------*/
+/*PROJECTS SECTION*/
+/*-----------------------------------*/
+
+.project-section {
+	display: grid;
+	grid-gap: 10px;
+	border: 1px solid lightslategray;
+	min-height: 50vh;
+}
+
+
+/*-----------------------------------*/
+/*CONTACT SECTION*/
+/*-----------------------------------*/
+
+.contact-section {
+	display: grid;
+	grid-gap: 10px;
+	border: 1px solid lightslategray;
+	min-height: 50vh;
+
+}
+
+/*-----------------------------------*/
+/*FOOTER*/
+/*-----------------------------------*/
+
+.footer {
+	display: grid;
+	grid-gap: 10px;
+	border: 1px solid lightslategray;
+	min-height: 30vh;
 }
 
 /*-----------------------------------*/
@@ -132,29 +168,11 @@ h2 {
 /*BUTTONS*/
 /*-----------------------------------*/
 
-.main-button {
-	display: block;
-	text-align: center;
-	background-color: var(--dark);
-	padding: 0.6rem 1.1rem;
-	text-decoration: none;
-	border: 2px solid #333;
-	width: 25%;
-	border-radius: 25px;
-}
 
-.main-button:hover {
-	background-color: azure;
-}
 
 /*-----------------------------------*/
 /*IMAGES*/
 /*-----------------------------------*/
-
-.logo {
-	height: 55px;
-	width: 120px;
-}
 
 
 
