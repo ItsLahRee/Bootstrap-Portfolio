@@ -31,9 +31,6 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper {
-	display: grid;
-}
 
 /*-----------------------------------*/
 /*NAVIGATION*/
@@ -58,6 +55,7 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin-top: 0;
+	height: 3em;
 }
 
 .main-nav a {
@@ -77,46 +75,33 @@ ul {
 /*HEADER*/
 /*-----------------------------------*/
 
-.showcase {
-	text-align: justify;
-	padding: 16em 7em 10em 8em;
-}
-
-.header-container {
-	min-height: 100vh;
-}
-
 /*-----------------------------------*/
 /*ABOUT SECTION*/
 /*-----------------------------------*/
-.about-container {
-	display: grid;
-	grid-gap: 10px;
-	border: 1px solid lightslategray;
-	text-align: center;
-	padding: 0px 40px 20px 40px;
-	min-height: 50vh;
+
+.about-section {
 	
+	max-height: 100%;
+	border: 1px solid black;
 }
 
-.info-boxes {
-	display: flex;
-	flex-direction: column;
-	border: 1px solid black;
-	padding: 10px;
-	align-content: center;
-	text-align: center;
-}
+
 
 /*-----------------------------------*/
 /*PROJECTS SECTION*/
 /*-----------------------------------*/
 
 .project-section {
-	display: grid;
-	grid-gap: 10px;
-	border: 1px solid lightslategray;
-	min-height: 50vh;
+	
+	border: 1px solid black;
+}
+
+.row {
+
+	text-align: center;
+	border: 1px solid black;
+
+
 }
 
 
@@ -125,11 +110,9 @@ ul {
 /*-----------------------------------*/
 
 .contact-section {
-	display: grid;
-	grid-gap: 10px;
 	border: 1px solid lightslategray;
-	min-height: 50vh;
-
+	text-align: center;
+	border: 1px solid black;
 }
 
 /*-----------------------------------*/
@@ -137,10 +120,7 @@ ul {
 /*-----------------------------------*/
 
 .footer {
-	display: grid;
-	grid-gap: 10px;
 	border: 1px solid lightslategray;
-	min-height: 30vh;
 }
 
 /*-----------------------------------*/
@@ -155,6 +135,7 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 4px;
+	word-wrap: wrap;
 }
 
 h2 {
@@ -176,13 +157,6 @@ h2 {
 
 
 
-/*-----------------------------------*/
-/*CONTACT FORM*/
-/*-----------------------------------*/
-
-/*-----------------------------------*/
-/*FOOTER*/
-/*-----------------------------------*/
 
 
 
