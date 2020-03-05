@@ -11,7 +11,6 @@
   </head>
 
 <body>
-  <div class="wrapper">
 
   <nav class="main-nav"> 
     <ul>
@@ -20,25 +19,25 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-
-<section class="header-section">  
-  <header class="showcase">  
-    <div class="col-1-of-1">
+ 
+  <header class="showcase grid">  
+    <div class="bg-image"></div>
+    <div class="content-wrap">
       <h1>Laurie Strecker</h1>
         <h1>Full-Stack Web Developer.</h1> 
       <a class="button" href="#">Learn More</a>
     </div> 
   </header>
-</section> 
 
-<!--About-->
-<section id="about" class="about-section"> 
-   
-<div class="info-boxes">
-    <!--Box 1-->      
-    <div class="iBox box-1">
+<main class="main">
+
+<section id="about-section" class="grid wrapper"> 
+
+   <!--Box 1-->
+    <div class="content-wrap box-1">     
       <i class="fas fa-code fa-2x"></i>
-      <h3>Code</h3>
+        <h3 class="content-title">Code</h3>
+          <div class="content-text">
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
         Quod perferendis laudantium, eum excepturi expedita in ipsa dolore 
         tenetur harum velit mollitia ratione animi accusantium rem, 
@@ -49,12 +48,13 @@
         earum quis nisi ipsam aspernatur sit, sint ad maiores tempora 
         cupiditate explicabo, veritatis in.</p>
     </div>
- 
+ </div>
 
      <!--Box 2-->
-    <div class="iBox box-2">
+    <div class="content-wrap box-2">
       <i class="fas fa-laptop-code fa-2x"></i>
-      <h3>Responsive</h3>
+      <h3 class="content-title">Responsive</h3>
+      <div class="content-text">
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
         Quod perferendis laudantium, eum excepturi expedita in ipsa dolore 
         tenetur harum velit mollitia ratione animi accusantium rem, 
@@ -64,13 +64,15 @@
         Praesentium sed eveniet culpa commodi expedita, maxime ullam 
         earum quis nisi ipsam aspernatur sit, sint ad maiores tempora 
         cupiditate explicabo, veritatis in.</p>
+      </div>
     </div>
  
 
      <!--Box 3-->
-      <div class="iBox box-3">
+      <div class="content-wrap box-3">
           <i class="fas fa-user-check fa-2x"></i>
-            <h3>Useability</h3>
+            <h3 class="content-title">Useability</h3>
+            <div class="content-text">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Quod perferendis laudantium, eum excepturi expedita in ipsa dolore 
               tenetur harum velit mollitia ratione animi accusantium rem, 
@@ -80,55 +82,72 @@
             Praesentium sed eveniet culpa commodi expedita, maxime ullam 
             earum quis nisi ipsam aspernatur sit, sint ad maiores tempora 
             cupiditate explicabo, veritatis in.</p>
+          </div>
         </div>
-  </div>
+
 </section>
 
 <!--Projects-->
-<section id="work" class="project-section"> 
-
-    <div class="box box1">
-      <h3>Box 1</h3>
+<section id="project-section" class="grid"> 
+  <ul>
+    <li>
+      <div class="card">
+      <img class="card-img" src="images/code_pic.jpg" alt="Neon Arcade">
+      <h3 class="card-title">Card 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
       <a href="#" class="btn">Source Code</a>
       <a href="#" class="btn">Website</a>
     </div>
-
-    <div class="box box2">
-      <h3>Box 2</h3>
+  </li>
+    <li>
+      <div class="card">
+      <img class="card-img" src="images/code_pic.jpg" alt="Open Sign">
+      <h3 class="card-title">Card 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
       <a href="#" class="btn">Source Code</a>
       <a href="#" class="btn">Website</a>
     </div>
-
-    <div class="box box3">
-      <h3>Box 3</h3>
+  </li>
+    <li>
+      <div class="card">
+      <img class="card-img" src="images/code_pic.jpg" alt="Crossfit">
+      <h3 class="card-title">Card 3</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
       <a href="#" class="btn">Source Code</a>
       <a href="#" class="btn">Website</a>
     </div>
+  </li>
+    <li>
+      <div class="card">
+        <img class="card-img" src="images/code_pic.jpg" alt="Code">
+        <h3 class="card-title">Box 4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
+        <a href="#" class="btn">Source Code</a>
+        <a href="#" class="btn">Website</a>
+      </div>
+    </li>
+  </ul>
+ 
 
-    <div class="box box4">
-      <h3>Box 4</h3>
-      <a href="#" class="btn">Source Code</a>
-      <a href="#" class="btn">Website</a>
-    </div>
-</section> 
+</section>
 
-<!--Contact-->
-<section id="contact" class="contact-section"> 
-   
+</main>
+
+ 
 <!--Footer Container-->
-  <footer class="footer">  
+  <footer id="footer" class="grid"> 
+    <div class="footer-content">
     <div class="social-links">
     <i class="fab fa-github fa-2x"></i>
     <i class="fab fa-codepen fa-2x"></i>
     <i class="fab fa-linkedin fa-2x"></i>
   </div>
   <p> LaurieStrecker &copy; 2020</p>
+</div>
   </footer>
-</section>
 
-</div><!--End of Wrapper-->
+
  
-
 </body>
 </html>
 
