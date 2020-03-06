@@ -11,29 +11,28 @@
   </head>
 
 <body>
-  
+<div id="main-grid" class="wrapper">
+
   <nav id="main-nav"class="main-nav"> 
     <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li> 
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#project-section">Projects</a></li> 
+      <li><a href="#footer">Contact</a></li>
     </ul>
-   
   </nav>
 <br>
-  <header>  
+  
+  <header class="header">
     <div class="content-wrap">
       <h1>Laurie Strecker</h1>
         <h1>Full-Stack Web Developer.</h1> 
-      <a class="button" href="#">Learn More</a>
+      <a class="button" href="#about-section">Learn More</a>
     </div> 
   </header>
+<br>
 
 
-
-<main class="main">
-
-<section id="about-section" class="grid wrapper"> 
+<section id="about-section" class="about nested-grid-1"> 
 
    <!--Box 1-->
     <div class="content-wrap box-1">     
@@ -53,6 +52,7 @@
  </div>
 
      <!--Box 2-->
+     
     <div class="content-wrap box-2">
       <i class="fas fa-laptop-code fa-3x"></i>
       <h3 class="content-title">Responsive</h3>
@@ -90,10 +90,10 @@
 </section>
 
 <!--Projects-->
-<section id="project-section" class="grid"> 
+<section id="project-section" class="project nested-grid-2"> 
   <ul>
     <li>
-      <div class="card">
+      <div class="card card-1">
       <img class="card-img" src="images/code_pic.jpg" alt="Neon Arcade">
       <h3 class="card-title">Card 1</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
@@ -102,7 +102,7 @@
     </div>
   </li>
     <li>
-      <div class="card">
+      <div class="card card-2">
       <img class="card-img" src="images/code_pic.jpg" alt="Open Sign">
       <h3 class="card-title">Card 2</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
@@ -111,7 +111,7 @@
     </div>
   </li>
     <li>
-      <div class="card">
+      <div class="card card-3">
       <img class="card-img" src="images/code_pic.jpg" alt="Crossfit">
       <h3 class="card-title">Card 3</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
@@ -120,7 +120,7 @@
     </div>
   </li>
     <li>
-      <div class="card">
+      <div class="card card-4">
         <img class="card-img" src="images/code_pic.jpg" alt="Code">
         <h3 class="card-title">Box 4</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, itaque.</p>
@@ -132,12 +132,8 @@
  
 
 </section>
-
-</main>
-
- 
 <!--Footer Container-->
-  <footer id="footer" class="grid"> 
+  <footer id="footer" class="footer"> 
     <div class="footer-content">
     <div class="social-links">
     <i class="fab fa-github fa-2x"></i>
@@ -147,9 +143,30 @@
   <p> LaurieStrecker &copy; 2020</p>
 </div>
   </footer>
- 
+</div>
 </body>
 </html>
+
+<!--Today's Tasks
+
+Create media querie with breakpoints
+
+Link Icons to Social Media
+
+Add a link to your e-mail
+
+
+
+
+
+
+
+
+
+
+-->
+
+
 
 
 
