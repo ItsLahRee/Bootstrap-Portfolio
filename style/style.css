@@ -68,8 +68,10 @@ ul {
 	font-size: 0.8rem;
 }
 
-.main-mnav li:hover {
-	background-color: azure;
+.main-nav a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
 }
 /*-----------------------------------*/
 /*HEADER*/
@@ -80,29 +82,50 @@ ul {
 }
 
 .header-content-wrap {
-	margin-left: 40px;
-	padding: 40px;
+	margin-left: 150px;
+	padding: 200px 0;
 }
 
 /*-----------------------------------*/
 /*ABOUT SECTION*/
 /*-----------------------------------*/
+.about {
+	padding: 108px 60px 108px 60px;
+	
+}
 .content-wrap {
 	text-align: center;
 }
 
+.content-wrap i {
+	padding: 20px;
+}
+
 .content-title {
-	margin-top: 1em;
-	letter-spacing: .2em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
 }
 
 .content-text {
-	margin-top: 2em;
-	text-align: left;
+	text-align: center;
+	padding: 20px;
 }
 /*-----------------------------------*/
 /*PROJECTS SECTION*/
 /*-----------------------------------*/
+
+.project {
+	padding: 168px 0px;
+	
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card {
+	text-align: center;
+}
 
 
 /*-----------------------------------*/
@@ -145,6 +168,52 @@ h2 {
 	padding: 30px 0;
 	margin: 0;
 }
+
+/*-----------------------------------*/
+/*BUTTONS*/
+/*-----------------------------------*/
+
+.btn {
+	margin-top: 10px;
+}
+
+.button {
+	border: 1px solid black;
+	margin-top: 20px;
+	border-radius: 50px;
+	padding: 15px;
+	color: black;
+	display: block;
+	width: 140px;
+	text-align: center;
+}
+
+.button:hover {
+	text-decoration: none;
+	background: black;
+	color: white;
+}
+
+.card a {
+	border: 1px solid black;
+	width: 9em;
+	
+}
+
+/*-----------------------------------*/
+/*IMAGES*/
+/*-----------------------------------*/
+
+.card {
+ padding-bottom: 10px;
+
+}
+
+.card-img {
+	height: 200px;
+	width: 100%;
+}
+
 
 /*-----------------------------------*/
 /* MAIN-GRID*/
@@ -258,15 +327,6 @@ h2 {
 
 }
 
-
-
-/*-----------------------------------*/
-/*BUTTONS*/
-/*-----------------------------------*/
-
-/*-----------------------------------*/
-/*IMAGES*/
-/*-----------------------------------*/
 
 /*-----------------------------------*/
 /*MEDIA QUERIES*/
