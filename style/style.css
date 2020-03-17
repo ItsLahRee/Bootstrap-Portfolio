@@ -15,8 +15,6 @@
 	--dark: #4C5454;
 	--highlight: #946F5D;
 	--light:#FFE7D3;
-
-	--shadow: 0 1px 5px rgba(104 104 104 0.8);
 }
 
 
@@ -26,19 +24,16 @@
 
 body {
 	font-family: 'lato' , 'Arial' , 'sans-serif';
-	
   font-size: 20px;
 	font-weight: 300;
 	line-height: 1.4;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
-
 }
 
 /*-----------------------------------*/
 /*WRAPPER*/
 /*-----------------------------------*/
-
 .wrapper {
 		background-color: #FFE7D3;
 }
@@ -95,31 +90,21 @@ ul {
 .header {
 	text-align: center;
 	color: var(--dark);
-
-
 }
 
-.chevron {
-	display: flex;
-	width: 100%;
+.top-link {
+	color: #4C5454;
 }
-
 
 .header-content-wrap {
 	padding: 240px 0px 280px 0px;
 }
-/*-----------------------------------*/
-/*ME SECTION*/
-/*-----------------------------------*/
-
-
 
 /*-----------------------------------*/
 /*ABOUT SECTION*/
 /*-----------------------------------*/
 .about {
 	padding: 108px 60px 108px 60px;
-	
 }
 
 .box {
@@ -150,13 +135,12 @@ ul {
 	text-align: center;
 	padding: 20px;
 }
+
 /*-----------------------------------*/
 /*PROJECTS SECTION*/
 /*-----------------------------------*/
-
 .project {
-	padding: 168px 0px;
-	
+	padding: 168px 0px;	
 }
 
 .card-title {
@@ -168,24 +152,8 @@ ul {
 }
 
 /*-----------------------------------*/
-/*CONTACT SECTION*/
-/*-----------------------------------*/
-
-.contact-section {
-	text-align: center;
-	padding: 20px 80px;
-
-}
-
-.row {
-	margin-top: 2em;
-}
-
-
-/*-----------------------------------*/
 /*FOOTER*/
 /*-----------------------------------*/
-
 #footer {
 	background: var(--dark);
 	color: #FFE7D3;
@@ -193,23 +161,14 @@ ul {
 	font-family: 'Damion';
 }
 
-.title {
-	
-}
-
 .footer-content {
 	align-content: center;
 	margin-top: 1em;
 }
 
-i {
-	padding: .4em;
-}
-
 /*-----------------------------------*/
 /*HEADING-TAGS*/
 /*-----------------------------------*/
-
 h1 {
 	margin: 0;
 	font-size: 200%;
@@ -220,11 +179,9 @@ h1 {
   font-family: 'Playfair Display SC', serif;
 }
 
-
 /*-----------------------------------*/
-/*BUTTONS*/
+/*BUTTON*/
 /*-----------------------------------*/
-
 .btn {
 	margin-top: 10px;
 }
@@ -246,28 +203,35 @@ h1 {
 .card a {
 	border: 1px solid black;
 	width: 9em;
-	
 }
 
 /*-----------------------------------*/
-/*IMAGES*/
+/*IMAGE*/
 /*-----------------------------------*/
-
 .card {
  padding-bottom: 10px;
-
 }
 
 .card-img {
 	height: 200px;
 	width: 100%;
 }
+/*-----------------------------------*/
+/*ICON*/
+/*-----------------------------------*/
+#top-icon {
+	color: var(--dark);
+	padding: .8rem;
+}
 
+#bottom-icon {
+	color: #FFE7D3;
+	padding: .8rem;
+}
 
 /*-----------------------------------*/
 /* MAIN-GRID*/
 /*-----------------------------------*/
-
 .wrapper {
 	display: grid;
 	grid-gap: 20px;
@@ -275,10 +239,8 @@ h1 {
 	grid-template-areas: 
 	"main-nav main-nav main-nav"
 	"header header header"
-	"me me me"
 	"about about about"
 	"project project project"
-	"contact contact contact"
 	"footer footer footer"
 	;
 }
@@ -293,11 +255,6 @@ h1 {
 	border: 1px solid red;
 }
 
-.me-section {
-	grid-area: me;
-	border: 1px solid red;
-}
-
 .about {
 	grid-area: about;
 	border: 1px solid red;
@@ -308,14 +265,8 @@ h1 {
 	border: 1px solid red;
 }
 
-.contact-section {
-	grid-area: contact;
-	border: 1px solid red;
-}
-
 .footer {
 	grid-area: footer;
-
 }
 
 /*-----------------------------------*/
@@ -405,10 +356,8 @@ h1 {
 	grid-template-areas: 
 	"main-nav main-nav main-nav"
 	"header header header"
-	"me me me"
 	"about about about"
 	"project project project"
-	"contact contact contact"
 	"footer footer footer";
 }
 
