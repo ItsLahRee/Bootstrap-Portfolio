@@ -34,9 +34,7 @@ body {
 /*-----------------------------------*/
 /*WRAPPER*/
 /*-----------------------------------*/
-.wrapper {
 
-}
 
 /*-----------------------------------*/
 /*NAVIGATION*/
@@ -88,6 +86,7 @@ ul {
 
 .header {
 	text-align: center;
+	background-color: #FDF7FF;
 	color: #382B47;
 }
 
@@ -103,12 +102,10 @@ ul {
 /*ABOUT SECTION*/
 /*-----------------------------------*/
 .about {
-	padding: 108px 60px 108px 60px;
+	padding: 3em;
 }
 
-.about {
-	background-color: #76A7BE;
-}
+
 
 .box {
 	padding: 20px;
@@ -141,26 +138,30 @@ ul {
 	padding: 20px;
 }
 
+
+
 /*-----------------------------------*/
 /*PROJECTS SECTION*/
 /*-----------------------------------*/
-/*.project {
-	padding: 2em;
-}
-.card-content {
-	text-align: center;
-	padding: 20px;
-	letter-spacing: .1em;
-	text-transform: uppercase;
-}
-.card-title {
-	padding: 1em;
-}
-.card-content {
-	
-	border: 1px solid #4C5454;
-}*/
 
+.project {
+	background-color: #382B47;
+}
+
+.cards {
+	padding: 8em;
+}
+
+.btn {
+	margin: 0.6em;
+}
+
+.card {
+	text-align: center;
+	padding: 2em;
+	margin-top: 2em;
+
+}
 
 /*-----------------------------------*/
 /*FOOTER*/
@@ -222,10 +223,7 @@ h1 {
 /*IMAGE*/
 /*-----------------------------------*/
 
-.card-img {
-	height: 300px;
-	width: 200px;
-}
+
 
 /*-----------------------------------*/
 /*ICON*/
@@ -291,7 +289,7 @@ h1 {
 
 /*-----------------------------------*/
 /*NESTED-GRID-1*/
-/*-----------------------------------*/
+/*-----------------------------------
 
 .nested-grid-1 {
 	display: grid;
@@ -320,11 +318,11 @@ h1 {
 	grid-area: box-3;
 
 	
-}
+}*/
 
 /*-----------------------------------*/
 /*NESTED-GRID-2*/
-/*-----------------------------------*/
+/*-----------------------------------
 
 .nested-grid-2 {
 	display: grid;
@@ -339,28 +337,28 @@ h1 {
 
 .card-1 {
 	grid-area: card-1;
-	
+	border: 1px solid grey;
 }
 
 .card-2 {
 	grid-area: card-2;
-
+	border: 1px solid grey;
 }
 
 .card-3 {
 	grid-area: card-3;
-	
+	border: 1px solid grey;
 }
 
 .card-4 {
 	grid-area: card-4;
-	
+	border: 1px solid grey;
 }
 
 .card-5 {
 	grid-area: card-5;
-
-}
+	border: 1px solid grey;
+}*/
 
 
 /*-----------------------------------*/
@@ -396,8 +394,8 @@ h1 {
 }
 
 
-/*DESKTOP NESTED-GRID-2*/
-@media screen and (min-width: 1024px) {
+/*DESKTOP NESTED-GRID-2
+@media screen and (min-width: 760px) {
 .nested-grid-2 {
 	display: grid;
 	grid-gap: 10px;
@@ -407,7 +405,7 @@ h1 {
 	"card-3 card-4";
 }
 
-}
+}*/
 
 /*I-PAD NESTED-GRID-2
 @media screen and (min-width: 780px) {
