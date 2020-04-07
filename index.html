@@ -11,8 +11,7 @@
   </head>
 
 <body>
-  <!--Main Wrapper-->
-<div id="main-grid" class="wrapper">
+
 
   <!--Navigation-->
   <nav id="main-nav"class="main-nav"> 
@@ -20,29 +19,41 @@
       <li><a  href="#about-section">About</a></li>
       <li><a  href="#project-section">Projects</a></li> 
       <li><a  href="#footer">Contact</a></li>
-      <li><a  href="resume.html" class=" btn-info" role="button">Resume</a></li>
+      <li><a  href="resume.html"  role="button">Resume</a></li>
     </ul>
   </nav>
 <br>
+
+<div class="container">
  <!--Header--> 
   <header class="header">
-    <div class="header-content-wrap">
-      <h1>Laurie Strecker<br>Full-Stack Web Developer</h1> 
- 
+    <div id="header-content" class="header-content-wrap">
+      <img src="images/Bio_Image.jpg" class="bio-img mr-3 responsive-img" alt="me" width="160px" height="160px">
+       
+   
+      <h1 id="name">Hi, I'm Laurie Strecker</h1>
+      <p id="tag-line">A Full-Stack Web Developer Living in Seattle, WA.</p> 
+      <p id="accent">  </p>
       <div class="social-links">
         <a href="https://github.com/LaurieStrecker" target="_blank"><i id="top-icon"class="fab fa-github fa-2x top-link"></i></a>
         <a href="https://codepen.io/ItsLahRee" target="_blank"><i id="top-icon" class="fab fa-codepen fa-2x top-link"></i></a>
         <a href="https://www.linkedin.com/in/lauriestrecker/" target="_blank"><i id="top-icon" class="fab fa-linkedin fa-2x top-link"></i></a>
     </div>
+
+     
   </div> 
     
   </header>
 <br>
 
+<hr class="featurette-divider">
+
 <!--About Section-->
 <section id="about-section" class="about nested-grid-1"> 
-
+  <h2>About</h2>
+  <div class="row">
    <!--Box 1-->
+   <div class="col-lg-4">
     <div class="content-wrap box box-1">     
       <i class="fab fa-adobe fa-6x"></i>
         <h3 class="content-title">Design</h3>
@@ -53,9 +64,10 @@
       <p>CSS Grid</p>
     </div>
  </div>
+</div>
 
      <!--Box 2-->
-     
+     <div class="col-lg-4">
     <div class="content-wrap box box-2">
       <i class="fab fa-js-square fa-6x"></i>
       <h3 class="content-title">Front-End</h3>
@@ -66,9 +78,10 @@
         <p>jQuery</p>
       </div>
     </div>
- 
+  </div>
 
      <!--Box 3-->
+     <div class="col-lg-4">
       <div class="content-wrap box box-3">
           <i class="fab fa-node fa-6x"></i>
             <h3 class="content-title">Back-End</h3>
@@ -79,16 +92,16 @@
               <p>Node.js</p> 
           </div>
         </div>
-
+        </div>
+      </div>
 </section>
+
+<hr class="featurette-divider">
 
 <!--Project Section, Row-1-->
 <section id="project-section" class="project"> 
- <div class="cards">
-   <div class="container-md">
+<h2>Projects</h2>
    <div class="row">
-    
-     <!--Column-1-->
 
           <!--Card-1-->
      <div class="col-md-6">
@@ -147,19 +160,20 @@
   </div>
 </section>
 
+<hr class="featurette-divider">
+
 <!--Footer Container-->
   <footer id="footer" class="footer"> 
-    <div class="footer-content">
-      <h5>Contact Me:</h5>
-      <a id="email" href="mailto:laurie.strecker@gmail.com">Laurie.Strecker@gmail.com</a>
     <div class="social-links">
       <a href="https://github.com/LaurieStrecker" target="_blank"><i id="bottom-icon" class="fab fa-github fa-2x"></i></a>
       <a href="https://codepen.io/ItsLahRee" target="_blank"><i id="bottom-icon" class="fab fa-codepen fa-2x"></i></a>
       <a href="https://www.linkedin.com/in/lauriestrecker/" target="_blank"><i id="bottom-icon" class="fab fa-linkedin fa-2x"></i></a>
   </div>
+  <div class="copy">
+    <p>LaurieStrecker &copy; 2020</p>
+  </div>
+</footer>
 </div>
-<div class="copy"> <p> LaurieStrecker &copy; 2020</p></div>
-  </footer>
 </div>
 </body>
 </html>
@@ -175,6 +189,11 @@
   ICEBOX:
   change color scheme again
   Animation
+
+  <i class="fas fa-chevron-down"></i> 
+  MAYBE ADD LATER: 
+   <h5>Contact Me:</h5>
+      <a id="email" href="mailto:laurie.strecker@gmail.com">Laurie.Strecker@gmail.com</a>
 -->
 
 
