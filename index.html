@@ -11,14 +11,31 @@
 
 <body>
   <!--Start-->
-  <nav id="main-nav"class="main-nav"> 
-    <ul>
-      <li><a  href="#about-section">About</a></li>
-      <li><a  href="#project-section">Projects</a></li> 
-      <li><a  href="#footer">Contact</a></li>
-      <li><a  href="resume.html"  role="button">Resume</a></li>
+  
+  <nav id="main-nav"class="navbar navbar-expand-lg navbar-light bg-white"> 
+
+    <!--Left-->
+    <a class="navbar-brand" href="#about-section">
+     
+      <img src="images/box-black.png" width="30" height="30" class="d-inline-block align-top" alt="lined-box image">
+      Home
+    </a>
+
+    <!--Right-->
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
+      <li class="nav-item"><a  class="nav-link" href="#project-section">Projects</a></li> 
+      <li class="nav-item"><a  class="nav-link" href="#footer">Contact</a></li>
+      <li class="nav-item"><a  class="nav-link" href="resume.html" role="button">Resume</a></li>
     </ul>
+  </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ 
   </nav>
+
 <br>
 
  <!--Header-->
@@ -49,6 +66,9 @@
 <!--About Section-->
 <section id="about-section" class="about nested-grid-1"> 
   <h2>About</h2>
+  <div class="row">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos suscipit beatae ipsa, omnis facere sapiente, aliquam amet corrupti accusantium numquam odio incidunt molestiae aperiam, recusandae voluptatibus iure quis. Nostrum!</p>
+  </div>
   <div class="row">
    <!--Box 1-->
    <div class="col-lg-4">
@@ -104,57 +124,57 @@
           <!--Card-1-->
      <div class="col-md-6">
       <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-      <img class="card-img" src="images/Business_project.jpg" alt="Neon Arcade">
-      
-      <div class="card-body">
-      <h3 class="card-title">GiphTastic</h3>
-      <p class="card-text">JQuery, Axios, API</p>
-      <a href="#" class="btn btn-primary">Source Code</a>
-      <a href="#" class="btn btn-primary">Website</a>
-    </div>
-  </div>
-  
-          <!--Card-2-->
-      <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-      <img class="card-img" src="images/workspace.jpg" alt="Open Sign">
-      <div class="card-body">
-      <h3 class="card-title">Task List</h3>
-      <p class="card-text">JavaScript</p>
-      <a href="#" class="btn btn-primary">Source Code</a>
-      <a href="#" class="btn btn-primary">Website</a>
-    </div>
-  </div>
- 
-</div>
-
-  <!--Column-2-->
-  <div class="col-md-6">
-
-          <!--Card-3-->
-          <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-            <img class="card-img" src="images/crossfit_site.jpg" alt="Crossift">
-            <div class="card-body">
-            <h3 class="card-title">GiphTastic</h3>
-            <p class="card-text">React</p>
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
             <a href="#" class="btn btn-primary">Source Code</a>
-            <a href="#" class="btn btn-primary">Website</a>
           </div>
         </div>
-          
-        
-                <!--Card-4-->
-                <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-                  <img class="card-img" src="images/workspace.jpg" alt="Code">
-                  <div class="card-body">
-                  <h3 class="card-title">CLI App</h3>
-                  <p class="card-text">Node.js</p>
-                  <a href="#" class="btn btn-primary">Source Code</a>
-                  <a href="#" class="btn btn-primary">Website</a>
-                </div>
+  
+          <!--Card-2-->
+          <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Last updated 3 mins ago</p>
+                <a href="#" class="btn btn-primary">Source Code</a>
               </div>
+            </div>
+    
+ 
 
-      </div>
-    </div>  
+
+
+              <!--Card-3-->
+
+                <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+                  <div class="card bg-dark text-white">
+                    <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Project 1</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Last updated 3 mins ago</p>
+                      <a href="#" class="btn btn-primary">Source Code</a>
+                    </div>
+                  </div>
+            
+                    <!--Card-4-->
+                    <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Project 2</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">Last updated 3 mins ago</p>
+                          <a href="#" class="btn btn-primary">Source Code</a>
+                        </div>
+                      </div>
+                  
   </div>
 </section>
 
@@ -174,24 +194,26 @@
 </footer>
 </div>
 </div>
+
 </body>
+<!--Script-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
 </html>
 
 <!--Today's Tasks
-  Fix Icon load time/ Style 
-  Redo project cards
-  About Section: MERN Stack, about paragraph
+
+  About Section: 
  
-  Remove Red lines
+
   Pick site to Host: Heroku, Host Gator, ect.
   Pick domain: LaurieStrecker.me $20
   ICEBOX:
-  change color scheme again
-  Animation
 
-  <i class="fas fa-chevron-down"></i> 
+
+  
   MAYBE ADD LATER: 
-   <h5>Contact Me:</h5>
+ 
+      <i class="fas fa-chevron-down"></i> 
       <a id="email" href="mailto:laurie.strecker@gmail.com">Laurie.Strecker@gmail.com</a>
 -->
 
