@@ -25,362 +25,53 @@ html {
 
 }
 
-
-
-
 /*-----------------------------------*/
 /*NAVIGATION*/
 /*-----------------------------------*/
-a {
-	text-decoration: none;
-}
-
-ul {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 10px;
-}
-
-.main-nav {
-	
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	padding: 0;
-	margin-top: 0;
-	height: 3em;
-	z-index: 1;
-}
-
-.main-nav a {
-	color: #000;
-	display: block;
-	padding: 0.8rem;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 0.8rem;
-}
-
-.main-nav a:hover {
-	color: olive;
-	border-bottom: 2px solid olive;
-	font-size: 18px;
-	text-decoration: none;
-	transition: .2s;
-}
 
 /*-----------------------------------*/
 /*HEADER*/
 /*-----------------------------------*/
-.header {
-	text-align: center;
-	background-color: #FFF;
-}
-
-#header-content {
-
-	background-color: #FFF;
-	text-align: center;
-	box-shadow: inset;
-	padding: 1em;
-	border-radius: 15px;
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 10%;
-	margin-bottom: 12%;
-	background-color: #fff;
-}
-
-#name {
-	font-family: 'Montserrat Alternates', sans-serif;
-	color: rgb(44, 46, 46);
-	
-}
-
-#tag-line {
-	font-family: 'Nanum Pen Script';
-	font-size: 18px;
-	color: rgb(44, 46, 46);
-
-}
-
-#accent {
-	font-size: 120%;
-	padding: 2em;
-	
-}
-
-
-
-.bio-img {
-	border-radius: 50%;
-	padding: 1em;
-	
-}
-
-.bio-img:hover {
-	border: 1px solid olive;
-}
 
 /*-----------------------------------*/
 /*ABOUT SECTION*/
 /*-----------------------------------*/
 
-
-.box {
-	padding: 20px;
-}
-
-.box {
-	background-color: #FDF7FF;
-	border: groove;	
-}
-
-.content-wrap {
-	text-align: center;
-}
-
-.content-wrap i {
-	padding: 20px;
-}
-
-.content-title {
-	font-size: 150%;
-	letter-spacing: .1em;
-	text-transform: uppercase;
-}
-
-.content-text {
-	font-size: 150%;
-	text-align: center;
-	padding: 20px;
-}*/
-
-
-
 /*-----------------------------------*/
 /*PROJECTS SECTION*/
 /*-----------------------------------*/
 
-.project {
-	background-color: #fff;
-}
-
-.cards {
-	padding: 2em;
-}
-
-.btn {
-	margin: 0.6em;
-}
-
-.card {
-	text-align: center;
-	padding: 2em;
-	margin-top: 2em;
-
-}*/
-
 /*-----------------------------------*/
 /*FOOTER*/
 /*-----------------------------------*/
-.footer {
-	
-	color: #4C5454;
-	text-align: center;
-	font-family: 'Damion';
-	margin-bottom: 0;
-}*/
 
 /*-----------------------------------*/
 /*HEADING-TAGS*/
 /*-----------------------------------*/
-h1 {
-	margin: 0;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	word-spacing: 4px;
-	text-align: center;
-}
-
-h2 {
-	text-align: center;
-}*/
 
 /*-----------------------------------*/
 /*BUTTON*/
 /*-----------------------------------*/
-.button {
-	background-color: #4C5454;
-	color: #FFE7D3;
-	margin-bottom: 15px;
-}
-
-.button:hover {
-	background-color: #FF8848;
-	color: #4C5454;
-	transition: 0.4s;
-}*/
 
 /*-----------------------------------*/
 /*ICON*/
 /*-----------------------------------*/
-#top-icon {
-	color: #4C5454;
-	padding: .8rem;
-}
-
-#top-icon:hover {
-	color: olive;
-
-}
-
-#bottom-icon {
-	color: #4C5454;
-	padding: .8rem;
-}
-
-#bottom-icon:hover {
-	color: olive;
-}*/
 
 /*-----------------------------------*/
 /* MAIN-GRID*/
 /*-----------------------------------*/
-.wrapper {
-	display: grid;
-
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: 
-	"main-nav main-nav main-nav"
-	"header header header"
-	"about about about"
-	"project project project"
-	"footer footer footer"
-	;
-}
-
-.main-nav {
-	grid-area: main-nav;
-
-}
-
-.header {
-	grid-area: header;
-
-}
-
-.about {
-	grid-area: about;
-
-}
-
-.project {
-	grid-area: project;
-
-}
-
-.footer {
-	grid-area: footer;
-}
 
 /*-----------------------------------*/
 /*NESTED-GRID-1*/
 /*-----------------------------------*/
 
-.nested-grid-1 {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-	grid-template-areas: 
-	"box-1" 
-	"box-2" 
-	"box-3"
-	;
-}
-
-.box-1 {
-	grid-area: box-1;
-
-}
-
-.box-2 {
-	grid-area: box-2;
-
-
-}
-
-.box-3 {
-	grid-area: box-3;
-
-	
-}
-
 /*-----------------------------------*/
 /*NESTED-GRID-2*/
 /*-----------------------------------*/
 
-.nested-grid-2 {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-areas: 
-	"card-1" 
-	"card-2" 
-	"card-3" 
-	"card-4"
-	;
-}
-
-.card-1 {
-	grid-area: card-1;
-	border: 1px solid grey;
-}
-
-.card-2 {
-	grid-area: card-2;
-	border: 1px solid grey;
-}
-
-.card-3 {
-	grid-area: card-3;
-	border: 1px solid grey;
-}
-
-.card-4 {
-	grid-area: card-4;
-	border: 1px solid grey;
-}
-
-.card-5 {
-	grid-area: card-5;
-	border: 1px solid grey;
-}*/
-
-
 /*-----------------------------------*/
 /*MEDIA QUERIES*/
 /*-----------------------------------*/
-
-/*DESKTOP-MAIN GRID
-@media screen and (min-width: 780px) {
-	.wrapper {
-	display: grid;
-	
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: 
-	"main-nav main-nav main-nav"
-	"header header header"
-	"about about about"
-	"project project project"
-	"footer footer footer";
-}
-
-}
-*/
 
 /*DESKTOP & IPAD NESTED-GRID-1
 @media screen and (min-width: 780px) {
