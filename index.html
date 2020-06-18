@@ -13,16 +13,16 @@
 <body>
   
   <header>
-  <!--NavBar-->
+  <!--navBar-->
   <nav id="main-nav"class="navbar navbar-expand-lg navbar-light bg-white"> 
 
-    <!--Left-->
+    <!--Logo-->
     <a class="navbar-brand" href="#about-section">
       <img src="images/Laurie's-Avatar.png" width="70" height="70" class="d-inline-block align-top" alt="lined-box image">
     </a>
 
-    <!--Right-->
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <!--Right nav-->
+    <div class="collapse navbar-collapse" id="navbarnav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
       <li class="nav-item"><a  class="nav-link" href="#project-section">Projects</a></li> 
@@ -30,52 +30,50 @@
       <li class="nav-item"><a  class="nav-link" href="resume.html" role="button">Resume</a></li>
     </ul>
   </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav" aria-controls="navbarnav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
  
   </nav>
 </header>
-<br>
-<div class="container">
- <!--Header-->
-  <header class="header">
-    <div id="header-content" class="header-content-wrap">
-      <img src="images/Laurie's-Avatar.png" class="bio-img mr-3 responsive-img" alt="me" width="160px" height="160px">
-       
-      <h1>Hi, I'm Laurie Strecker</h1>
-      <p>A Full-Stack Web Developer</p> 
-    
-   
-  </div> 
-    
-  </header>
-<br>
 
-<hr class="featurette-divider">
+ <!--Landing Section-->
+    <section class="landing-section">
+       <div id="header-content" class="header-content-wrap">
+          <img src="images/Laurie's-Avatar.png" class="bio-img mr-3 responsive-img" alt="me" width="160px" height="160px">
+          <h1>Hi, I'm Laurie Strecker</h1>
+          <p>A Full-Stack Web Developer</p> 
+        </div> 
+    </section>
 
-<!--About Section-->
-<section id="about-section" class="about nested-grid-1"> 
-  <h2 class="text-center">About</h2>
-  <div class="row">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos suscipit beatae ipsa, omnis facere sapiente, aliquam amet corrupti accusantium numquam odio incidunt molestiae aperiam, recusandae voluptatibus iure quis. Nostrum!</p>
-  </div>
-  <div class="row">
-   <!--Box 1-->
-   <div class="col-lg-4">
-    <div class="content-wrap box box-1">     
-     
-        <h3 class="content-title">Design</h3>
-          <div class="content-text">
-      <p>Adobe XD</p>
-      <p>Flexbox</p>
-      <p>Bootstrap</p>
-      <p>CSS Grid</p>
-    </div>
- </div>
-</div>
 
-     <!--Box 2-->
+
+        <!--About Section-->
+          <section id="about-section" class=""> 
+            
+                <div class="row">
+                    <h2>About</h2>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ullam dignissimos suscipit beatae ipsa, omnis facere sapiente, 
+                        aliquam amet corrupti accusantium numquam odio incidunt molestiae aperiam, 
+                        recusandae voluptatibus iure quis. Nostrum!
+                      </p>
+                </div>
+
+                  <div class="row">
+                      <div class="col-lg-4">
+                          <div class="content-wrap box box-1">     
+                              <h3>Design</h3>
+                                  <div class="content-text">
+                                    <p>Adobe XD</p>
+                                    <p>Flexbox</p>
+                                    <p>Bootstrap</p>
+                                    <p>CSS Grid</p>
+                                  </div>
+                          </div>
+                  </div>
+
      <div class="col-lg-4">
     <div class="content-wrap box box-2">
       
@@ -92,7 +90,6 @@
      <!--Box 3-->
      <div class="col-lg-4">
       <div class="content-wrap box box-3">
-       
             <h3 class="content-title">Back-End</h3>
             <div class="content-text">
               <p>Mongo.db</p>
@@ -105,74 +102,6 @@
       </div>
 </section>
 
-<hr class="featurette-divider">
-
-<!--Project Section, Row-1-->
-<section id="project-section" class="project"> 
-  <h2 class="text-center">Projects</h2>
-   <div class="row justify-content-center">
-      
-          <!--Card-1-->
-     <div class="col-md-6">
-      <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-        <div class="card bg-dark text-white">
-          <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Project 1</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
-            <a href="#" class="btn btn-primary">Source Code</a>
-          </div>
-        </div>
-
-          <!--Card-2-->
-          
-          <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Project 2</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago</p>
-                <a href="#" class="btn btn-primary">Source Code</a>
-              </div>
-            </div>
-         
-         
-          </div>
-
-
-
-              <!--Card-3-->
-
-                <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-                  <div class="card bg-dark text-white">
-                    <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Project 1</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text">Last updated 3 mins ago</p>
-                      <a href="#" class="btn btn-primary">Source Code</a>
-                    </div>
-                  </div>
-            
-                    <!--Card-4-->
-                    <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
-                      <div class="card bg-dark text-white">
-                        <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Project 2</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text">Last updated 3 mins ago</p>
-                          <a href="#" class="btn btn-primary">Source Code</a>
-                        </div>
-                      </div>
-                  
-  </div>
-</section>
-
-<hr class="featurette-divider">
-
   <div id="contact-icons" class="row justify-content-center">
    
     <div class="social-links">
@@ -182,8 +111,6 @@
       <a href="mailto:lauriestrecker@gmail.com" ><i id="bottom-icon" class="fas fa-envelope-square fa-2x text-secondary"></i></a>
     </div>
   </div>
-
-<hr class="featurette-divider">
 
 <!--Footer Container-->
   <div class="footer text-center">
@@ -202,12 +129,14 @@
  
 
   Pick site to Host: Heroku, Host Gator, ect.
-  Pick domain: LaurieStrecker.me $20
+  Pick domain: lauriestrecker.com [Google Domain: paid]
   ICEBOX:
 
 
   
   MAYBE ADD LATER: 
+
+  FOOTER SECTION INFO>>
  
       <i class="fas fa-chevron-down"></i> 
       <a id="email" href="mailto:laurie.strecker@gmail.com">Laurie.Strecker@gmail.com</a>
@@ -219,12 +148,63 @@
         <a href="https://www.linkedin.com/in/lauriestrecker/" target="_blank"><i id="top-icon" class="fab fa-linkedin fa-2x top-link"></i></a>
     </div>
   
-  ICONS: 
 
-   <i class="fab fa-adobe fa-6x"></i>
-   <i class="fab fa-js-square fa-6x"></i>
-    <i class="fab fa-node fa-6x"></i>
   -->
+
+  <!--PROJECT SECTION- IN PROGRESS........................
+<section id="project-section" class="project"> 
+  <h2 class="text-center">Projects</h2>
+   <div class="row justify-content-center">
+      
+         
+     <div class="col-md-6">
+      <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+        <div class="card bg-dark text-white">
+          <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+            <a href="#" class="btn btn-primary">Source Code</a>
+          </div>
+        </div>
+
+       
+          
+          <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Last updated 3 mins ago</p>
+                <a href="#" class="btn btn-primary">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+                <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+                  <div class="card bg-dark text-white">
+                    <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Project 1</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Last updated 3 mins ago</p>
+                      <a href="#" class="btn btn-primary">Source Code</a>
+                    </div>
+                  </div>
+            
+                    <div class="card card-blog fill-light" style="background-color: rgba(240, 240, 239, 0.4);">
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="images/building_geometric.png.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Project 2</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">Last updated 3 mins ago</p>
+                          <a href="#" class="btn btn-primary">Source Code</a>
+                        </div>
+                      </div>
+</section>-->
 
 
 
